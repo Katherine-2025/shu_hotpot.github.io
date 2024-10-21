@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <script src="p5.js"></script>
+  <script src="p5.sound.min.js"></script>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+
+    .button {
+      border-radius: 4px;
+      padding: 8px 8px;
+      background: rgb(92, 192, 210);
+      color: #fff;
+      cursor: pointer;
+    }
+
+    .btn-wrap {
+      position: absolute;
+      top: 32px;
+      left: 32px;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .button {
+      margin-bottom: 16px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="btn-wrap">
+    <div class="button" onclick="location.href = 'page1.html'">Culture&History</div>
+    <div class="button" onclick="location.href = 'page2.html'">Why Shu Hotpot?</div>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
